@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.Design;
+using System.IO;
 
 class Program
 {
@@ -37,12 +38,13 @@ class Program
             {                    
                 foreach (var entry in entries)
                 {
-                    Console.WriteLine ($"Date: 2/20/2024 - Entry: {entry}");
+                    Console.WriteLine ($"Date: 2/19/2024 - Entry: {entry}");
                 }
             }
             else if (userSelection == 3)
             {
                 Console.WriteLine("You selected option 3.");
+                // Save s1 = new Save();
             }                
             else if (userSelection == 4)
             {
