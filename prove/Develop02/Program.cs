@@ -48,7 +48,8 @@ class Program
             }                
             else if (userSelection == 4)
             {
-                Console.WriteLine("You selected option 4.");
+                // Console.WriteLine("You selected option 4.");
+                Console.Write("What is the file name? ");
             }  
             else if (userSelection == 5)                
             {
